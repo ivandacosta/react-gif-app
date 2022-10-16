@@ -6,7 +6,7 @@ import "./style.scss";
 import logo from "../assets/logo.svg";
 
 const AddCategory = ({ onNewCategory }) => {
-  const [inputValue, setInputValue] = useState("One Pucnh");
+  const [inputValue, setInputValue] = useState("");
 
   const onInputChange = ({ target }) => setInputValue(target.value);
 
