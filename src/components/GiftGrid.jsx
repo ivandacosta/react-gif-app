@@ -18,8 +18,6 @@ const GiftGrid = ({ category }) => {
           <GiftItem key={image.id} {...image} />
         ))}
       </div>
-      <h5></h5>
-      <button onClick={() => setCounter(counter + 1)}>+1</button>
     </>
   );
 };
